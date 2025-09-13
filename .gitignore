@@ -1,0 +1,47 @@
+# Build artifacts
+/build/
+/cmake-build-*/
+
+# Compiled source
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# User-specific
+*.user
+*.suo
+*.ncb
+*.pdb
+*.idb
+*.opendb
+*.VC.db
+
+# Logs / temp
+*.log
+*.swp
+*.tmp
+
+# Our app's data file
+todos.txt
