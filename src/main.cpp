@@ -1,13 +1,9 @@
-#include<iostream>
-
+#include "command.h"
+#include"taskdata.h"
 
 int main() {
-std::string taskName;
-
-std::cout<<"TODO>";
-std::getline(std::cin, taskName);
-
-    std::cout<<"The task todo is :"<<taskName<<std::endl;
+TaskCommands task;
+    task.startLoop();
 
     return 0;
 

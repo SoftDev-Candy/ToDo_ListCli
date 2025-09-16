@@ -10,13 +10,19 @@
 class Task {
 private:
 
-std::string command;
-
+int id;
+std::string description;
+bool done;
 
 
 public:
+Task(){}
+
+    void setId(int d);
+    void setDescription(std::string stringSentence);
+    void setDone(bool d);
 
 };
 
 
-#endif //CLITODOLIST_TASKDATA_H
+#endif
